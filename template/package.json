@@ -1,0 +1,17 @@
+{
+  "name": "motion-styles-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code-rendered animation: canvas 2D + three.js, rendered frame by frame in headless Chrome, encoded with ffmpeg",
+  "scripts": {
+    "preview": "node serve.mjs",
+    "overview": "node render.mjs --overview=12 --out=out/check/overview.jpg",
+    "score": "node music/score.mjs",
+    "frames": "node render.mjs --frames --workers=4",
+    "encode": "node render.mjs --encode --out=out/video.mp4"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.11.0",
+    "three": "0.170.0"
+  }
+}
