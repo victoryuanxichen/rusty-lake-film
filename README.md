@@ -11,6 +11,20 @@ The look it produces:
 
 Rendering: Canvas 2D, frame by frame in headless Chrome, encoded with ffmpeg, with a synthesized score timed to the beat.
 
+![15-second sample film: a family photograph, a green hall, a grey room](docs/preview.gif)
+
+*15-second sample made with this skill (GIF preview, reduced colours; the real output is a 1920×1080 MP4 with sound).*
+
+| Family photograph (Roots) | Green hall (Hotel) | Grey room (Paradise) |
+|---|---|---|
+| ![Four stiff figures in front of faded rose wallpaper](docs/family.jpg) | ![A maid with folded hands standing in a doorway](docs/hall.jpg) | ![A deer-headed man in a white robe holding up a beating heart](docs/paradise.jpg) |
+
+Full-size details:
+
+| Faces | Animal head |
+|---|---|
+| ![Close-up of the top-hat man and the bride](docs/detail-faces.jpg) | ![Close-up of the deer head and the heart](docs/detail-deer.jpg) |
+
 > Fan-made style study. It borrows the drawing style only: no Rusty Lake characters, logos or UI, and it is not affiliated with Rusty Lake.
 
 ## Install
@@ -47,3 +61,4 @@ node render.mjs --encode --out=out/my-film.mp4   # MP4
 | `template/` | Project skeleton: engine, renderer, score synth, `src/scenes/kit.js` |
 | `examples/` | Family photograph, green hall with a maid, grey room with a deer-headed man and a beating heart |
 | `scripts/new_film.sh` | Project scaffold |
+| `docs/` | README images (not needed by the skill) |
